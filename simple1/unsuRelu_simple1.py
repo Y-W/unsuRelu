@@ -84,6 +84,7 @@ def main():
     vis.visFilters(simple1(0.0, makeGray=False), 'simple1_C00.png')
     vis.visFilters(simple1(-0.2, makeGray=False), 'simple1_C02.png')
     vis.visFilters(simple1(-0.4, makeGray=False), 'simple1_C04.png')
+    vis.visFilters(simple1(-0.6, makeGray=False), 'simple1_C06.png')
 
     vis.visFilters(simple1(0.0, makeGray=True), 'simple1_G00.png')
     vis.visFilters(simple1(-0.2, makeGray=True), 'simple1_G02.png')
